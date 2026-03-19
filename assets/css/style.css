@@ -1,0 +1,51 @@
+:root {
+  --color-primary: #2b4c26;
+  --color-primary-light: #e1eede;
+  --color-accent: #d4ad72;
+  --color-accent-dark: #8b6034;
+  --color-bg: #fdf9f2;
+  --color-text: #303847;
+  --color-muted: #4a5668;
+  --color-border: #f0dfc0;
+  --font-display: "Hind Siliguri", sans-serif;
+  --font-body: "Hind Siliguri", sans-serif;
+  --font-arabic: "Reem Kufi", sans-serif;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+.font-arabic {
+  font-family: var(--font-arabic);
+  font-weight: 400;
+}
+th {
+  padding: 0.75rem 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-primary-light);
+  text-transform: uppercase;
+  text-align: left;
+}
+td {
+  padding: 0.75rem 1rem;
+  color: #3c4655;
+}
+tr:nth-child(even) td {
+  background-color: var(--color-bg);
+}
+.bg-header {
+  background-image: url("../img/star.svg");
+}
