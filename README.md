@@ -15,4 +15,4 @@ A simple, clean and responsive informational webpage about Zakat-ul-Fitr, built 
 
 ## 📸 Screenshot
 
-![Project Screenshot](./assets/ui/zakat-al-fitr-guide.pngscreenshot.png)
+![Project Screenshot](./assets/ui/zakat-al-fitr-guide.png)
